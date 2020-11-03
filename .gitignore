@@ -1,0 +1,59 @@
+# maven ignore
+target/
+*.jar
+*.war
+*.swp
+*.zip
+*.tar
+*.tar.gz
+
+
+# eclipse ignore
+.settings/
+*/.settings
+/.settings/*
+*/.externalToolBuilders
+/.externalToolBuilders/*
+
+.project
+.classpath
+*.project
+*.settings
+*.classpath
+*target
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+.metadata/*
+
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+
+# system ignore
+.DS_Store
+Thumbs.db
+
+
+*.class
+*/target
+*/target/*
+*/bin
+*/bin/*
+*.prefs
+/*.project
+
+# npm ignore
+*/node_modules
+*/node_modules/*
+*/dist
+/open-isobk-service/src/test/java/com/jd/isobk/core/MyTest.java
+/Branch_Desc.md
